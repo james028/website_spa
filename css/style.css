@@ -1,0 +1,156 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    
+}
+
+
+
+/* Sekcja Services */
+#page-services
+{
+    margin: 60px auto;
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+}
+.title-1
+{
+    text-align: center;
+    margin: 20px auto 40px;
+}
+.title-1 h4
+{
+    color: #88c1ba;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+.title-1 p
+{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 300;
+    color: #575756;
+}
+.row-1
+{
+    display: flex;
+    justify-content: center;
+}
+.serv-col
+{
+    flex: 1;
+    margin: 10px 30px;
+}
+.serv-col img
+{
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+.serv-1 h3
+{
+    text-align: center;
+    color: #ED7577;
+}
+.serv-1 p
+{
+    text-align: center;
+    color: #575756;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+
+/* Sekcja sign */
+#sign
+{
+    background: #ED7577;
+}
+.sign-text
+{
+    margin: 70px 10px;
+}
+.email-btn
+{
+    margin: 70px 10px;
+}
+.symb-text
+{
+    padding-left: 40px;
+}
+.symb-text h5
+{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.symb-text p
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+.email-btn .news-mail
+{
+    height: 60px;
+    width: 400px;
+    border-radius: 30px;
+    font-size: 18px;
+    box-shadow: none;
+    padding-left: 30px;
+    border: 1px solid #e5e9ec;
+    background-color: #fff;
+}
+.email-btn .btn
+{
+    height: 60px;
+    width: 120px;
+    margin-left: 5px;
+    font-size: 18px;
+    box-shadow: none;
+    background-color: #bf977e;
+    border: 1px solid #e5e9ec;
+    border-radius: 30px; 
+    color: #fff;
+    font-weight: 700;
+}
+.email-btn .btn:hover
+{
+    background: #ED7577;
+}
+
+
+/* Sekcja wellness */
+#about-well
+{
+    margin: 100px auto;
+}
+.row-2
+{
+    display: flex;
+    justify-content: content;
+}
+.well-img, .well-text
+{
+    flex: 1;
+}
+
+
+
+/* Sekcja gallery */
+#gallery
+{
+    margin: 30px auto 60px;
+}
