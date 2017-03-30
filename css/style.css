@@ -154,3 +154,192 @@ body
 {
     margin: 30px auto 60px;
 }
+
+
+/* Sekcja brand */
+#brands
+{
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.brand-title
+{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 55px;
+    margin-top: 70px;
+    color: #575756;
+}
+.brand-row
+{
+    display: inline-block;
+     margin: 20px 39px;
+}
+
+
+/* Sekcja team */
+#team
+{
+    
+}
+.team-title p
+{
+    font-size: 48px;
+    padding: 0;
+    margin: 0 0 80px 0;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #575756;
+    text-align: center;
+}
+.row-4
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.team-one
+{
+    margin: 20px; 
+}
+.team-one img
+{
+  
+}
+.team-text h3
+{
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+}
+.team-text h5
+{
+    color: #ED75A1;
+    font-size: 20px;  /*nie wiem co tu sie dzieje*/
+}
+.team-text p
+{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+/* Sekcja special offer */
+#special-offer
+{
+    background: #ed7577;
+    margin: 40px auto;
+}
+.row-5
+{
+    display: flex;
+    flex-direction: column;
+}
+.special-text
+{
+    color: #fff;
+    text-align: center; 
+}
+.special-text h5
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    
+}
+.special-text p
+{
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.special-btn
+{ 
+    text-align: center;
+    margin: 20px auto 70px;
+}
+.special-btn .special-btn-1
+{
+    color: #ed7577;
+    background: #fff;
+    width: 400px;
+    height: 60px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: 300px;
+    box-shadow: none;
+    text-transform: uppercase;
+    padding: 15px 23px 13px 23px;
+    border: none;
+    font-weight: bold;
+}
+.special-btn .special-btn-1:hover
+{
+    border: 1px solid #fff;
+    background: #ed7577;
+    color: #fff;
+    transition: 1s linear;
+}
+
+
+
+/* Sekcja Conctact us */
+.row-7
+{
+    margin: 30px auto 60px;
+}
+.contact-title
+{
+    font-size: 48px;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.cont-left, .cont-right
+{
+    display: flex;
+    margin-bottom: 80px;
+}
+.cont-text
+{
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 40px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.cont-icon
+{
+    border: 2px solid #ed7577;
+    width: 88px;
+    height: 88px;
+}
+.cont-icon .glyphicon
+{
+    color: #ed7577;
+    font-size: 46px;
+    text-align: center; 
+}
+
+
+/* Sekcja kontaktowa */
+#form-cont
+{
+    margin: 40px auto;
+}
+.row-6
+{
+    display: flex;
+    justify-content: center;
+}
+.form-con-left, .form-con-right
+{
+    flex: 1;
+}
+.form-con-left img
+{
+    
+}
