@@ -33,7 +33,7 @@ body
 }
 .logo
 {
-    margin: 50px auto;
+    margin: 20px auto;
 }
 .home-text h1
 {
@@ -46,7 +46,7 @@ body
 {
     font-size: 24px;
     font-weight: 300;
-    margin: 30px auto;
+    margin: 20px auto;
     color: #575756;
 }
 nav
@@ -238,8 +238,6 @@ button {
 
 
 
-
-
 /* Sekcja Services */
 #page-services
 {
@@ -277,7 +275,7 @@ button {
 .serv-col
 {
     flex: 1;
-    margin: 10px 30px;
+    margin: 10px 15px;
 }
 .serv-col img
 {
@@ -385,6 +383,31 @@ button {
 }
 
 
+
+/* Sekcja paral */
+#self-paral
+{
+   background-image: url('../img/self/paral.jpg'); 
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 120px auto;
+}
+.row-9
+{
+    display: flex;
+    justify-content: center;
+}
+.self-left, .self-right
+{
+    flex: 1;
+    justify-content: center;
+}
+
+
+
 /* Sekcja brand */
 #brands
 {
@@ -406,6 +429,14 @@ button {
 }
 
 
+
+
+/* Sekcja slider */
+#slider
+{
+    background: #FCECED;
+    margin: 110px auto;
+}
 /* Sekcja team */
 #team
 {
