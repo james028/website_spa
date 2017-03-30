@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Spa Website</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
     <link href="css/style.css" rel="stylesheet">
+      
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,9 +24,40 @@
   </head>
   <body>
     
+    <section id="home">
+        
+        <div class="nav-bar">
+            <nav class="nav-bar__nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="nav-bar__menu-btn" title="Menu"><span></span></button>
+        </div>
+        
+        <header>
+            <div class="home-page">
+                <div class="logo">
+                    <img src="img/home/header-logo.png" alt="logo">
+                </div>
+                <div class="home-text">
+                    <h1>Give yourself a moment of relaxation</h1>
+                    <p>Wellcome to the Wellnesscenter! A wellness luxury spa resort dedicated to inspiring Life in Balance.</p>
+                </div>
+                <div class="home-scroll">
+                    
+                </div>
+            </div>
+        </header>
+    </section>
     <section id="page-services">
         <div class="container">
-            <div class="row">
+            <div class="row-0">
                 <div class="title-1">
                     <h4>Our services and products</h4>
                     <p>We offer a wide selection of spa services </p>
@@ -143,7 +176,7 @@
       
     <section id="brands">
         <div class="container">
-            <div class="row">
+            <div class="row-0">
                 <div class="brand-title">
                     <p>
                         Here are some of the incredibly cool brands and organizations that we’ve worked with over the years!
@@ -224,6 +257,100 @@
         </div>  
     </section>
       
+    <section id="offer-spa">
+        <div class="container">
+            <div class="row-0">
+                <div class="title-1">
+                    <p>Our top Wellness and Spa offers</p>
+                </div>
+            </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 col-1">
+                    <div class="spa-row">
+                        <div class="spa-title">
+                            <p>Oil Massage</p>
+                        </div>
+                        <div class="spa-price">
+                            <p> $ 199 per Day </p>
+                        </div>
+                        <div class="spa-text">
+                            <p>
+                                This is included<br>
+                                You even get this<br>
+                                Yes, this too!<br>
+                                You even get this
+                            </p>
+                        </div>
+                        <div class="spa-btn">
+                            <button type="button" class="spa-btn-1">Request an appointment</button> 
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-md-3 col-sm-6 col-xs-12 col-1">
+                    <div class="spa-row">
+                        <div class="spa-title">
+                            <p>Relax Day</p>
+                        </div>
+                        <div class="spa-price">
+                            <p> $ 199 per Day </p>
+                        </div>
+                        <div class="spa-text">
+                            <p>
+                                This is included<br>
+                                You even get this<br>
+                                Yes, this too!<br>
+                                You even get this
+                            </p>
+                        </div>
+                        <div class="spa-btn">
+                            <button type="button" class="spa-btn-1">Request an appointment</button> 
+                        </div>
+                    </div>
+                </div>   
+                <div class="col-md-3 col-sm-6 col-xs-12 col-1">
+                    <div class="spa-row">
+                        <div class="spa-title">
+                            <p>Spa & Beauty</p>
+                        </div>
+                        <div class="spa-price">
+                            <p> $ 299 per Day </p>
+                        </div>
+                        <div class="spa-text">
+                            <p>
+                                This is included<br>
+                                You even get this<br>
+                                Yes, this too!<br>
+                                You even get this
+                            </p>
+                        </div>
+                        <div class="spa-btn">
+                            <button type="button" class="spa-btn-1">Request an appointment</button> 
+                        </div>
+                    </div>
+                </div>   
+                <div class="col-md-3 col-sm-6 col-xs-12 col-1">
+                    <div class="spa-row">
+                        <div class="spa-title">
+                            <p>Relax Day</p>
+                        </div>
+                        <div class="spa-price">
+                            <p> $ 399 per Day </p>
+                        </div>
+                        <div class="spa-text">
+                            <p>
+                                This is included<br>
+                                You even get this<br>
+                                Yes, this too!<br>
+                                You even get this
+                            </p>
+                        </div>
+                        <div class="spa-btn">
+                            <button type="button" class="spa-btn-1">Request an appointment</button> 
+                        </div>
+                    </div>
+              </div>
+        </div>
+    </section>
+      
     <section id="special-offer">
         <div class="container">
             <div class="row-5">
@@ -289,7 +416,7 @@
                             <textarea name="massage" placeholder="Massage"></textarea>
                         </div>
                         <div class="btn-cont">
-                            <button type="submit" name="btn-cont">Submit Massage</button>
+                            <button type="submit" name="btn-cont" class="btn-cont-1">Submit Massage</button>
                         </div>
                     </form>
                 </div>
