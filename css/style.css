@@ -350,7 +350,7 @@ button {
     background-color: #bf977e;
     border: 1px solid #e5e9ec;
     border-radius: 30px; 
-    color: #fff;
+    color: #000;
     font-weight: 700;
 }
 .email-btn .btn:hover
@@ -486,6 +486,7 @@ button {
 }
 
 
+
 /* Sekcja special offer */
 #special-offer
 {
@@ -506,8 +507,7 @@ button {
 {
     font-size: 18px;
     text-transform: uppercase;
-    margin-top: 60px;
-    
+    margin-top: 60px;  
 }
 .special-text p
 {
@@ -528,7 +528,6 @@ button {
     height: 60px;
     margin: 10px auto;
     font-size: 20px;
-    font-weight: 300px;
     box-shadow: none;
     text-transform: uppercase;
     padding: 15px 23px 13px 23px;
