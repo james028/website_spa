@@ -1,3 +1,93 @@
+@media (min-width: 481px) and (max-width: 770px){
+    
+    .home-page
+    {
+        margin-top: 200px;
+    }
+    .home-text h1
+    {
+        font-size: 36px;
+    }
+    .home-text p
+    {
+        font-size: 22px;
+        margin: 20px 30px;
+    }
+    .email-btn .news-mail
+    {
+    height: 50px;
+    width: 300px;
+    font-size: 14px;
+    padding-left: 20px;
+    }
+     .email-btn .btn
+    {
+        margin: 15px auto 30px;
+        height: 40px; 
+    }
+    .row-2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .gall-1 img
+    {
+        display: flex;
+        justify-content: center;
+        min-width: 65%;
+        margin: 10px auto;
+    }
+    .row-9
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .self-right img
+    {
+        min-width: 60%;
+    }
+    .row-3
+    {
+        text-align: center;
+    }.brand-title
+    {
+        font-size: 18px;
+        margin: 20px;
+    }
+    .row-4
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .row-6
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-cont-left img
+    {
+        max-width: 100%;
+        height: 350px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .form-cont-right input
+    {
+        width: 600px;
+        margin: 10px auto;
+    }
+    .form-cont-right textarea
+    {
+        width: 600px;
+        margin: 10px auto;
+    }
+    
+}
+
+
+
+
 @media (max-width: 480px){
     
     #home
