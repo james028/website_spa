@@ -34,11 +34,12 @@ body
 .logo
 {
     margin: 20px auto;
+    color: #ED7577;
 }
 .home-text h1
 {
     font-size: 50px;
-    color: #7D3C93;
+    color: #ED7577;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
