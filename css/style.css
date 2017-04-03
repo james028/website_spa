@@ -28,7 +28,7 @@ body
 }
 .home-page
 {
-    margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
 }
 .logo
@@ -41,7 +41,7 @@ body
     font-size: 50px;
     color: #ED7577;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
 }
 .home-text p
 {
@@ -348,10 +348,10 @@ button {
     margin-left: 5px;
     font-size: 18px;
     box-shadow: none;
-    background-color: #bf977e;
+    background: #BF977E;
     border: 1px solid #e5e9ec;
     border-radius: 30px; 
-    color: #000;
+    color: #fff;
     font-weight: 700;
 }
 .email-btn .btn:hover
@@ -373,6 +373,21 @@ button {
 .well-img, .well-text
 {
     flex: 1;
+}
+.well-text h3
+{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 150%;
+    color: #575756;
+    margin-bottom: 30px;
+}
+.well-text p
+{
+    color: #575756;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
 }
 
 
@@ -406,7 +421,31 @@ button {
     flex: 1;
     justify-content: center;
 }
-
+.self-left h2
+{
+    font-size: 44px;
+    margin: 90px auto 30px;
+}
+.self-left h5
+{
+    color: #ed7577;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.self-left .self-text
+{
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+.self-text-1
+{
+    font-size: 18px;
+}
+.self-right img
+{
+    margin-left: 80px;
+}
 
 
 /* Sekcja brand */
@@ -433,11 +472,8 @@ button {
 
 
 /* Sekcja slider */
-#slider
-{
-    background: #FCECED;
-    margin: 110px auto;
-}
+
+
 /* Sekcja team */
 #team
 {
@@ -474,11 +510,10 @@ button {
     margin-top: 20px;
     margin-bottom: 15px;
 }
-}
 .team-text h5
 {
     color: #ED75A1;
-    font-size: 20px;  /*nie wiem co tu sie dzieje*/
+    font-size: 20px;
 }
 .team-text p
 {
@@ -573,7 +608,6 @@ button {
 }
 .cont-icon
 {
-    border: 2px solid #ed7577;
     width: 88px;
     height: 88px;
 }
@@ -582,6 +616,9 @@ button {
     color: #ed7577;
     font-size: 46px;
     text-align: center; 
+    position: relative;
+    top: 10px;
+    left: 30px;
 }
 
 
@@ -708,6 +745,12 @@ button {
     color: #fff;
     font-size: 14px;
     letter-spacing: 1px;
+}
+.spa-btn .spa-btn-1:hover
+{
+    background: #FBE3E4;
+    color: #ed7577;
+    border: 1px solid #ed7577;
 }
 
 
