@@ -309,4 +309,12 @@
     {
         text-align: center;
     }
+    .team-text h5
+    {
+        font-size: 14px;
+    }
+    .cont-icon
+    {
+        display: none;
+    }
 }   
