@@ -471,64 +471,6 @@ button {
 
 
 
-/* Sekcja slider */
-.container-1 {
-   min-width: 100%;
-   clear: both;
-    background: #FCECED;
-    display: flex;
-    justify-content: center;
-    padding: 10% 2%;
-    
-    
-}
- 
-.slide {
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: 0 0;
-}
- 
-.bx-viewport img {
-   display: block;
-   position: absolute;
-   right: 10%;
-   top: 25%;
-}
- 
-.main-slider-content {
-   padding: 25% 2%;
-   color: #000;
-   position: relative;
-   z-index: 1;
-display: inline-block;
-}
- 
-.main-slider-content h3 {
-    color: #ED7577;
-    margin-bottom: 30px;
-}
-.main-slider-content p {
-    font-size: 24px;
-    line-height: 1.6;
-    font-style: italic;
-    font-weight: 300;
-    width: 60%;
-    padding-left: 200px;
-}
- 
-.main-slider-content img {
-    border-radius: 50%;
-    border: 1px solid #ffffff;
-}
-@media screen and (max-width: 890px) {
-   .bx-viewport img {
-      display: none;
-   }
-}
-
-
-
 /* Sekcja team */
 #team
 {
